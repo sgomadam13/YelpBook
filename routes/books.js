@@ -27,7 +27,7 @@ router.get("/new", middleware.isLoggedIn, function(req, res) {
 router.post("/", function(req, res){
     //get data from form and add to books array
     var name = req.body.name;
-    var price = "9.99";
+    var price = req.body.price;
     var image = req.body.image;
     var desc = req.body.description;
     var author = {

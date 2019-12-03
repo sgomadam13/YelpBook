@@ -3,7 +3,7 @@
 }
 
 .thumbnail .caption-full {
-	padding: 9px;
+	padding: 25px;
 }
 
 li {
@@ -33,11 +33,12 @@ li {
 }
 
 #cardColumn {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .card-title {
     text-align: center;
+    padding-top: 10px;
 }
 
 .card-footer {
@@ -50,5 +51,9 @@ li {
 }
 
 .card-img-top {
-    height: 100px;
+    height: 150px;
+}
+
+.row {
+    padding-left: 10px;
 }
