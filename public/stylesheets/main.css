@@ -1,0 +1,54 @@
+.thumbnail img{
+	width: 100%;
+}
+
+.thumbnail .caption-full {
+	padding: 9px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.caption-full {
+	border: 1.5px solid rgba(0,0,0,.1);
+}
+
+.well {
+	margin-top: 20px;
+	border: 1.5px solid rgba(0,0,0,.1);
+	background-color: rgba(0,0,0,.1);
+}
+
+.pull-right {
+	float: right;
+}
+
+.btn {
+	margin: 20px;
+}
+
+#deleteForm {
+	display: inline;
+}
+
+#cardColumn {
+    padding-top: 20px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+#cardRow {
+    height: 250px;
+}
+
+.card-img-top {
+    height: 100px;
+}
