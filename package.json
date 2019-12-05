@@ -2,6 +2,10 @@
   "name": "yelpbook",
   "version": "1.0.0",
   "description": "This is a blog for books",
+  "engines": {
+    "node": "12.13.1",
+    "npm": "6.12.1"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
