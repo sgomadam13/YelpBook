@@ -24,7 +24,7 @@ app.set("view engine", "ejs");
 app.use(flash());
 
 //DB connection
-process.env.DATABASE_URL="mongodb+srv://sgomadam:mypassword1%21@yelpbook-0glrj.mongodb.net/test?retryWrites=true&w=majority21";
+//process.env.DATABASE_URL="mongodb+srv://sgomadam:mypassword1%21@yelpbook-0glrj.mongodb.net/test?retryWrites=true&w=majority21";
 console.log(process.env.DATABASE_URL);
 mongoose.connect(process.env.DATABASE_URL);
 
